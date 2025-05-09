@@ -6,44 +6,48 @@
     <title>Document</title>
 </head>
 <body>
-<form>
-    <label id="name">Name:</label>
-    <input type="text" id="name"><br>
-   
-    <div>
-        <label>Sex:</label>
-      <input type="radio" id="male" name="sex">
-      <label id="male">Male</label>
-      <input type="radio" id="female" name="sex">
-      <label id="female">Female</label>
-
-    </div>
-
-    <div>
-        <label id="select">Country: </label>
-        <select id="select">
-            <option>Select an option</option>
-            <option>USA</option>
-            <option>INDIA</option>
-            <option>UK</option>
-            <option>UAE</option>
-        </select>
-    </div>
-
-    Message:<br>
-    <textarea name="Message" rows="4" cols="30"></textarea>
- 
-    <br>
-
-    <div>
-        <input type="checkbox" id="check">
-        <label id="check">Subscribe?</label>
-    </div>
-
-   <button>submit</button>
     
+    <form>
+        <caption><h1>Feedback Form</h1></caption>
+        <div>
+            <label id="name">Name:</label>
+            <input type="text" id="name" placeholder="Write your name">
+        </div>
 
-</form>
+        <div>
+            <label id="email">Email:</label>
+            <input type="email" id="email" placeholder="Write your email">
+        </div>
+        
+       
 
+        <label id="mess">message:</label><br>
+        <textarea name="message" rows="4" cols="30" id="mess"></textarea><br>
+        Rate us our of 5:
+        <div>
+            <labe id="one">1</label>
+            <input type="radio" id="one" name="Rate">
+        </div>
+        <div>
+            <label id="two">2</label>
+            <input type="radio" id="two" name="Rate">
+        </div>
+        <div>
+            <label id="three">3</label>
+            <input type="radio" id="three" name="Rate">
+        </div>
+        <div>
+            <label id="four">4</label>
+            <input type="radio" id="four" name="Rate">
+        </div>
+        <div>
+            <label id="five">5</label>
+            <input type="radio" id="five" name="Rate">
+        </div>
+        
+        <button>Send your message!</button>
+
+    </form>
+    
 </body>
 </html>
